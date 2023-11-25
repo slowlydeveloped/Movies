@@ -86,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
         return ListTile(
           title: Text(movies[index].name),
           subtitle: Text(movies[index].summary),
-          leading: Image.network(
+         leading: Image.network(
             "https://static.tvmaze.com/uploads/images/medium_portrait/413/1034988.jpg",
             width: 50.0,
             height: 50.0,
